@@ -1,0 +1,204 @@
+<!--flexbox_1_example.html-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Flexbox one example</title>
+  </head>
+  <style>
+    body{
+      margin: 0;
+    }
+    header{
+      background-image: url(img/banner.jpg);
+      height: 20vh;
+    }
+    ul {
+      margin: 0;
+      background-color: rgba(0,0,0,0.5);
+      list-style: none;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex: 1 0 auto;
+      padding: 0.5em;
+      font-size: 13pt;
+    }
+    li:last-child {
+      margin-right: 10vh;
+    }
+    li:first-child {
+      font-weight: bold;
+    }
+    #first{
+      color: white;
+      font-weight: bold;
+      font-size: large;
+      text-align: center;
+    }
+    #second{
+      color: white;
+      text-align: center;
+    }
+    main{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    section{
+      box-shadow: gray 0 0 5px 2px;
+      width: 300px;
+      height: 400px;
+      margin: 2em 1em;
+    }
+    .top{
+      color: white;
+      background-color: #9a907e;
+      height: 10%;
+      width: 97%;
+      float:left;
+      text-align: right;
+      vertical-align: top;
+      padding-top: 44%;
+      padding-right: 3%;
+    }
+    .bottom{
+      height: 57%;
+      float:left;
+    }
+    h3{
+      padding-left: 10px;
+    }
+    .description{
+      padding: 10px;
+    }
+    .last{
+      flex: 3 1 auto;
+    }
+  </style>
+
+
+  <body>
+  <header>
+    <nav>
+      <ul>
+        <li>Lorem.</li>
+        <li>Aspernatur.</li>
+        <li>Adipisci.</li>
+        <li>Maxime</li>
+      </ul>
+    </nav>
+
+    <br>
+   <p id="first"> Numquam, unde?</p>
+    <p id="second"> Dolorem ex vel similique ut consectelur qiudem tempore?</p>
+  </header>
+
+  <main>
+    <section>
+      <div class="top">
+        <p class="date"> 22.01.2021</p>
+      </div>
+      <div class="bottom">
+        <h3>Quaerat architecto voluptatem beatae.  </h3>
+        <p class="description">Eos enim fugiat aspernatur unde! Quis laborum dolorem alias aliquam quibusdam eligendi rerum aut earum, illo est nihil mollitia eveniet fugit pariatur nemo, expedita adipisci sint. Recusandae tempora deleniti impedit.</p>
+      </div>
+    </section>
+    <section>
+      <div class="top">
+        <p class="date"> 25.01.2021</p>
+      </div>
+      <div class="bottom">
+        <h3> Inventore quidem soluta praesentium?</h3>
+        <p class="description">Reprehenderit, ipsam vitae. Illo minus earum obcaecati quaerat laborum non maiores exercitationem voluptatem, mollitia nihil sed rerum. Quae, doloribus? Dolorem magni modi, quod veritatis nesciunt quas ut nobis officia doloremque.</p>
+      </div>
+    </section>
+    <section>
+      <div class="top">
+        <p class="date">30.01.2021</p>
+      </div>
+      <div class="bottom">
+        <h3> Eligendi accusamus iure molestias?</h3>
+        <p class="description">Quaerat quo, architecto a maiores neque commodi. Doloremque, eligendi. Quae fuga nam repellat nemo ipsam molestias sed delectus nulla omnis iusto ratione facere odio, placeat dicta sunt eligendi voluptas culpa</p>
+      </div>
+    </section>
+    <section>
+      <div class="top">
+        <p class="date">12.02.2021</p>
+      </div>
+      <div class="bottom">
+        <h3>Id culpa obcaecati beatae</h3>
+        <p class="description"> Amet labore nulla possimus dolore ipsa nobis impedit sit repellat obcaecati officiis commodi, ullam aperiam fuga cum veritatis, repudiandae natus quod neque sunt omnis quo. Error, quas! Sequi, repudiandae consequuntur!</p>
+      </div>
+    </section>
+    <section>
+      <div class="top">
+        <p class="date">19.02.2021</p>
+      </div>
+      <div class="bottom">
+        <h3>Sequi debitis laboriosam illo? </h3>
+        <p class="description">Ipsam qui amet eligendi nam delectus molestiae dolores itaque quod aliquid aperiam, esse repellat pariatur quasi natus possimus hic minus? Optio, mollitia qui cupiditate ut quibusdam aliquam delectus assumenda in.</p>
+      </div>
+    </section>
+    <section>
+      <div class="top">
+        <p class="date">21.02.2021</p>
+      </div>
+      <div class="bottom">
+        <h3>Debitis eligendi beatae ut.</h3>
+        <p class="description">Dolor facilis tempore quidem iste blanditiis vitae, reiciendis nisi labore fugit enim a quia quaerat aliquid maxime possimus aut. Corrupti officiis labore voluptatibus dolorem eveniet vero culpa iusto beatae quo!</p>
+      </div>
+    </section>
+    <section>
+      <div class="top">
+        <p class="date">02.03.2021</p>
+      </div>
+      <div class="bottom">
+        <h3>Porro quas fugiat dolorem. </h3>
+        <p class="description">Sequi eaque iste commodi quidem eveniet ex vel voluptatum animi sed cum, blanditiis culpa velit libero minus earum accusamus illo voluptates non. Nihil sit neque ratione at quis, iusto dicta! Adipisci, soluta</p>
+      </div>
+    </section>
+    <section>
+      <div class="top">
+        <p class="date">11.03.2021</p>
+      </div>
+      <div class="bottom">
+        <h3>At, labore. Ducimus odio alias qui officiis</h3>
+        <p class="description">Dicta a perferendis laborum odio animi, quas in fuga ipsa impedit, repudiandae sed. Eveniet qui vitae eum laborum dolorem quis architecto ea nam ipsa, maiores officia omnis aliquid explicabo possimus! </p>
+      </div>
+    </section>
+    <section>
+      <div class="top">
+        <p class="date">14.03.2021</p>
+      </div>
+      <div class="bottom">
+        <h3> Magnam! Eos perspiciatis exercitationem laudantium.</h3>
+        <p class="description">At, labore. Ducimus odio alias qui officiis consectetur delectus magni ipsum mollitia nulla aspernatur unde aperiam, laboriosam modi sapiente autem fugiat ratione corporis temporibus facere magnam possimus ullam accusamus dignissimos eveniet!</p>
+      </div>
+    </section>
+    <section class="last">
+      <div class="top">
+        <p class="date">18.03.2021</p>
+      </div>
+      <div class="bottom">
+        <h3>Est at nulla ad?</h3>
+        <p class="description">Laborum voluptas eaque tenetur blanditiis unde illum molestiae omnis tempora expedita delectus obcaecati mollitia earum animi possimus est praesentium sapiente velit alias incidunt architecto, totam necessitatibus voluptatibus!</p>
+      </div>
+    </section>
+    <section class="last">
+      <div class="top">
+        <p class="date">22.03.2021 </p>
+      </div>
+      <div class="bottom">
+        <h3>Eum, ad repellat. </h3>
+        <p class="description">nventore reiciendis voluptate blanditiis! Maxime laborum eius repellendus molestias tenetur repellat sunt, vel ea voluptates veniam veritatis dolorum illum eos corporis vero adipisci praesentium,</p>
+      </div>
+    </section>
+  </main>
+  </body>
+</html>

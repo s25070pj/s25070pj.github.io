@@ -1,0 +1,61 @@
+<!--flexbox_1_example.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flexbox one example</title>
+</head>
+<style>
+  body{
+    margin: 0;
+
+  }
+
+  #container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: white;
+    height: 100vh;
+  }
+  .box {
+    text-align: center;
+  vertical-align: top;
+    font-size: 13pt;
+    line-height: 100px;
+    flex: 0 0 auto;
+    color: white;
+
+
+    width: 100px;
+
+
+
+
+  }
+  .box1 {
+    background-color: #D3D3D3;
+
+  }
+  .box2 {
+    background-color: #808080;
+
+  }
+  .box3 {
+    background-color: #A9A9A9;
+  }
+
+
+</style>
+<body>
+<div id="container">
+  <div class="box box1">1</div>
+  <div class="box box2">2</div>
+  <div class="box box3">3</div>
+
+</div>
+</body>
+</html>

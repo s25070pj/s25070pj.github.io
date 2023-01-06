@@ -1,0 +1,18 @@
+p:active {
+  color: green;
+}
+
+
+blockquote:active{
+  color: green;
+  background-color: rgb(0,255,0, .3);
+  border-color: green;
+}
+input:active{
+  color: green;
+  background-color: rgb(0,255,0, .3);
+  border-color: green;
+
+}
+
+

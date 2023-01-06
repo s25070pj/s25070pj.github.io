@@ -1,0 +1,95 @@
+header{
+  box-sizing: content-box;
+  background-color: antiquewhite;
+  letter-spacing: 10px;
+  text-align: center;
+  font-family: Arial;
+  color: darkslategrey;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  box-shadow: 0px 0px 2px 2px gray;
+}
+
+body{
+  background-color: #c0b7b7ad;
+}
+
+#firstForm{
+
+  box-sizing: content-box;
+  background-color: #FFF3E0;
+  box-shadow: 0px 0px 2px 2px gray;
+  padding: 30px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#secondForm{
+  box-shadow: 0px 0px 2px 2px gray;
+  background-color: #FFF3E0;
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px 30px;
+}
+
+fieldset{
+  background-color: #FFF3E0;
+  border: solid #d3cec5 1px;
+
+
+}
+
+legend{
+  color: #9a907e;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+form{
+  display: inline-block;
+  text-align: right;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+input[type=submit]{
+  text-align: right;
+  background-color: #CFCFCF;
+  color: white;
+  border: 0px;
+  padding: 7px 20px;
+  float: right;
+
+
+}
+input[type=text]{
+  margin: 6px;
+  width: 350px;
+  border: 0px;
+
+}
+
+
+
+
+table{
+  padding: 10px;
+  border-spacing: 0px;
+}
+
+td{
+  padding: 10px;
+}
+
+tr:nth-child(odd){
+  background-color: antiquewhite;
+}
+
+tr:first-child{
+  background-color: #BCAAA4;
+}
+

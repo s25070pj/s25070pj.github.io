@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+
+
+    #border {
+      width: 400px;
+      height: 300px;
+      border: 7px solid black;
+      border-right-width: 20px;
+    }
+
+    #first {
+      width: 300px;
+      height: 300px;
+      border: 7px solid black;
+      background-image: repeating-linear-gradient(to right, white, white 45px, black 45px, black 90px);
+    }
+    #second {
+      float: left;
+      width:  50px;
+      height: 300px;
+      background-image: repeating-linear-gradient(45deg, white, white 45px, black 45px, black 90px);
+
+    }
+    #third {
+      float: left;
+      width:  50px;
+      height: 300px;
+      background-image: repeating-linear-gradient(135deg, black, black 45px, white 45px, white 90px);
+      background-image: repeating-linear-gradient(135deg, white, white 45px, black 45px, black 90px);
+      transform:rotate(180deg) ;
+    }
+
+  </style>
+</head>
+<body>
+
+<div id="first"></div>
+
+<br>
+
+<div id="border">
+  <div id="second"></div>
+  <div id="third"></div>
+  <div id="second"></div>
+  <div id="third"></div>
+  <div id="second"></div>
+  <div id="third"></div>
+  <div id="second"></div>
+  <div id="third"></div>
+
+
+</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+body{
+  background-color: silver;
+  font-family: Arial;
+  margin: 0 auto;
+  width: 400px;
+}
+
+h1{
+  letter-spacing: 10px;
+  text-align: center;
+  color: #00805A;
+}
+
+.card{
+  box-sizing: content-box;
+  width: 400px;
+  box-shadow: gray 0 0 5px 2px;
+  margin: 20px
+}
+
+.top{
+  box-sizing: content-box;
+  letter-spacing: 5px;
+  color: white;
+  background-color: #00805A;
+  padding: 10px 25px;
+  font-family: Arial;
+}
+
+.bottom{
+  box-sizing: content-box;
+  background-color: white;
+  position: relative;
+  padding: 10px 25px;
+}
+
+
+.adress1{
+  text-align: right;
+  color: #00805A;
+
+}
+
+.adress2{
+  text-align: right;
+}
+
+.mail{
+  color: #00805A;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
